@@ -14,6 +14,7 @@ formats = "a A w d b B m y Y H I p M S f z Z j U W c x X G u V"
 formats = formats.split(' ')
 date_entered = current_date
 print("Python Date Formats")
+print("https://docs.python.org/3/library/datetime.html")
 print("Date Entered = " + date_entered.strftime("%x"))
 for each_format in formats:
     print(date_entered.strftime("date_entered.strftime(\'%%"+ each_format + "\') = %"+each_format))
