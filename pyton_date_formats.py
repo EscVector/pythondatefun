@@ -44,7 +44,7 @@ timestamp = datetime.utcfromtimestamp(ts).strftime('%Y%m%d-%H%M%S')
 
 def ts():
    ts = int(str(datetime.utcnow().timestamp())[:10])
-   ts = datetime.utcfromtimestamp(ts).strftime('%Y%m%d-%H%M%S')
+   ts = str(datetime.utcfromtimestamp(ts).strftime('%Y%m%d-%H%M%S'))
    return ts
 
 
